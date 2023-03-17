@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'ubuntu';
+    src: url(../FONTS/Ubuntu-Bold.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'ubuntu';
+    height: 100vh;
+    margin: 0
+}
+#container {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+#container #header {
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+#container #content {
+    flex-grow: 1;
+    flex-basis: auto;
+    background-image: url(../IMAGE/fundo.png);
+}
+
+#container #baseboard {
+    flex-grow: 0;
+    flex-basis: 100px;
+}
+
+#container {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+#header {
+    background-color: #194883;
+    height: 100px;
+}
+
+#imgLeft {
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+#center {
+    width: 590px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: 24%;
+}
+
+#imgRight {
+    width: 200px;
+    height: 100px;
+    float: right;
+}
+
+#imgRight img{
+    width: 90%;
+}
+
+#imgLeft img{
+    width: 90%;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+#content {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.button input{
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #194883;
+    border: 2px solid black;
+    padding: 5px 20px;
+    height: 45px;
+    width: 50%;
+}
+
+.button input:hover {
+    background-color: #db7d00;
+    border: 2px solid black;
+}
+
+input {
+    height: 40px;
+    width: 60%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff; 
+    margin-top: 10px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+ }
+
+ input.pesquisa {
+    border: 2px solid #f79300;
+    background-image: url(../IMAGE/pc.png);
+ }
+
+#totem , #printAll{
+    width: 100%;
+    margin: auto;
+    background-image: url(../IMAGE/fundo.png);
+}
+
+#totem thead , #printAll thead {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#totem thead td, #printAll thead td{
+    background-color: #f79300;
+    color: #fff;
+    border: 2px solid #db7d00;
+}
+
+#totem table, td, #printAll table, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+
+#totem table, #printAll table {
+    text-align: center;
+    table-layout: fixed;
+}
+
+#totem td, #printAll td {
+    background-color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#printAll table {
+    padding: 20px;
+    width: 70%;
+}
+
+#printAll h1, #totem h1, #totem p {
+    text-align: center;
+    background-color: #f79300;
+    color: #fff;
+    border: 2px solid #db7d00;
+    border-bottom: none;
+    width: 70%;
+    margin: auto;
+}
+
+#totem table, #printAll table {
+    margin-bottom: 10px ;
+}
+
+#totem tbody td:first-child, #printAll tbody td:first-child {
+    background-color: #194883;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+#totem p {
+    font-size: 20px;
+    background-color: #fff;
+    color: #194883;
+    margin-bottom: 10px;
+}
+
+#baseboard {
+    height: 110px;
+    text-align: center;
+    background-color: #f79300;
+    color: #fff;
+}
+
+#baseboard h1 {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#baseboard a {
+    padding: 3px;
+    margin: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+#baseboard a:hover {
+    background-color: #194883;
+    color: #fff;
+}
+
